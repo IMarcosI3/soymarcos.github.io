@@ -1,0 +1,127 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f1f2f4; /* fondo gris claro */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contenedor {
+  background-color: #ffffff;
+  border-radius: 20px; /* bordes redondeados */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* sombra suave */
+  width: 90%;
+  max-width: 800px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Reset y estilo general */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #07151b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contenedor {
+  background-color: #0a1920;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 900px;
+  display: flex;
+  padding: 40px;
+  gap: 40px;
+}
+
+/* Sección izquierda */
+.izquierda {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.foto-perfil {
+  width: 120px;         /* Tamaño del círculo */
+  height: 120px;
+  border-radius: 50%;   /* Lo hace circular */
+  overflow: hidden;     /* Recorta lo que sobresalga */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 15px;  /* Centrado y espacio abajo */
+}
+
+.foto-perfil img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   /* Ajusta la imagen sin deformarla */
+  border-radius: 50%;  /* Extra seguridad para mantenerlo circular */
+   border: 3px solid #f5e1b7; /* Borde fino del color que pediste */
+}
+
+.izquierda h1 {
+  font-size: 48px;
+  color: #f5e1b7;
+  margin-bottom: 15px;
+}
+
+.izquierda p {
+  font-size: 16px;
+  color: white;
+  line-height: 1.6;
+}
+
+/* Sección derecha */
+.derecha {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+.derecha h2 {
+  font-size: 20px;
+  color: #f5e1b7;
+  margin-bottom: 1px;
+}
+
+.boton {
+  text-decoration: none;
+  background-color: #e9f5f8;
+  color: #333;
+  padding: 15px 20px;
+  border-radius: 30px;
+  text-align: left;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.boton:hover {
+  background-color: #d0edf5;
+}
+
+.boton i {
+  margin-right: 10px;
+}
